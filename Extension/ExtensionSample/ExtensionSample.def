@@ -1,0 +1,69 @@
+; ExtensionSample.def : Declares the module parameters for the DLL.
+
+LIBRARY
+
+EXPORTS
+GetExtensionCode				@2
+ExtensionInitialize				@3
+ExtensionTerminate				@4
+GetExtensionVersion				@5
+GetUtilsVersion					@6
+GetUtilsHeaderVersion			@7
+GetUtilsGuiVersion				@8
+GetUtilsGuiHeaderVersion		@9
+GetTakionUtilsVersion			@10
+GetTakionUtilsHeaderVersion		@11
+GetTakionGuiVersion				@12
+GetTakionGuiHeaderVersion		@13
+GetTakionDataVersion			@14
+GetTakionDataHeaderVersion		@15
+GetTakionLogVersion				@16
+GetTakionLogHeaderVersion		@17
+GetObserverVersion				@18
+GetObserverHeaderVersion		@19
+;GetReceiverVersion				@20
+GetReceiverHeaderVersion		@21
+GetTakionExtensionDescription	@22
+GetTakionExtensionMenu			@23
+ExecuteTakionCommand			@24
+
+KeyStrokeAndCommand				@25
+SymbolEnteredInMmBox			@26
+SecurityRefreshed				@27
+TakionMoveWindows				@28
+
+ActiveMmBoxChanged				@29
+
+CurrentAccountSet				@30
+AppActivated					@31
+SaveLayout						@32
+SaveLayoutAs					@33
+OpenLayout						@34
+RestoreLayout					@35
+GetLayoutFilePath				@36
+
+TakionCreateExtensionTool		@37
+
+MessageReport					@38
+
+MarketSorterNotifyAdded				@39
+MarketSorterContents				@40
+MarketSorterContentsDone			@41
+MarketSorterNotifyRemoved			@42
+MarketSorterNotifyPrefixChanged		@43
+NotifyMarketSorterSymbol			@44
+MarketSorterNotifyAllRowsRemoved	@45
+
+LineDoubleClicked					@46
+
+GetExtensionInfo					@47
+
+CommandWindowRemoved				@48
+LayoutChanged						@49
+
+ExtensionIsDebug					@50
+
+MainThreadAvailableDataProcessed	@51
+MainThreadIdleState					@52
+
+NextDayStarted						@53

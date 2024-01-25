@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="TakionApi">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExtensionSample.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ExtensionSample.rc2">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExtensionSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtensionDerivedConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EOH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExtensionSample.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ObserverApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionDataApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionGui.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionLogApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionMemoryApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TakionUtilsApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UtilsApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDialog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionDerivedConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigEnums.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UtilsGuiApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConnectionApi.h">
+      <Filter>TakionApi</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionSampleVersion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EOH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ExtensionSample.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
